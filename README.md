@@ -17,7 +17,11 @@ npm run dl
 
 ## Utilisation
 
-Après avoir configuré votre schéma, exécutez la commande ```bash npm run build``` pour générer les types TypeScript et les opérations pour vos requêtes et mutations GraphQL.
+Après avoir configuré votre schéma, exécutez la commande ci-dessous pour générer les types TypeScript et les opérations pour vos requêtes et mutations GraphQL.
+
+```bash
+npm run build
+```
 
 ## Structure du projet
 
@@ -26,4 +30,5 @@ src/
 ├── schema.graphql    # Votre fichier de schéma GraphQL
 └── ...               # Types et opérations générés
 ```
+
 
